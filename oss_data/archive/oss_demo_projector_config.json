@@ -1,0 +1,12 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "logo",
+      "tensorShape": [4, 5],
+      "tensorPath": "oss_data/logos_tensors.tsv",
+      "metadataPath": "oss_data/logos_labels.tsv"
+    }
+    
+  ],
+  "modelCheckpointPath": "AgileDev Logos"
+}

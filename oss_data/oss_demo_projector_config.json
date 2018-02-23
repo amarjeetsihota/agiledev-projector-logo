@@ -1,12 +1,30 @@
 {
   "embeddings": [
     {
-      "tensorName": "logo",
-      "tensorShape": [4, 5],
-      "tensorPath": "oss_data/logos_tensors.tsv",
-      "metadataPath": "oss_data/logos_labels.tsv"
+      "tensorName": "Movies Category model",
+      "tensorShape": [3177, 300],
+      "tensorPath": "oss_data/movies_category_word_tensors.tsv",
+      "metadataPath": "oss_data/movies_category_word_labels.tsv"
+    },
+	{
+      "tensorName": "Movies User Model",
+      "tensorShape": [3105, 300],
+      "tensorPath": "oss_data/movies_user_word_tensors.tsv",
+      "metadataPath": "oss_data/movies_user_word_labels.tsv"
+    },
+	{
+      "tensorName": "Users User Model",
+      "tensorShape": [6040, 300],
+      "tensorPath": "oss_data/movies_user_doc_tensors.tsv",
+      "metadataPath": "oss_data/movies_user_doc_labels.tsv"
+    },
+    {
+      "tensorName": "Mental Health Classifier",
+      "tensorShape": [158, 100],
+      "tensorPath": "oss_data/mhc_tensors.tsv",
+      "metadataPath": "oss_data/mhc_labels.tsv"
     }
     
   ],
-  "modelCheckpointPath": "AgileDev Logos"
+  "modelCheckpointPath": "AgileDev Demo datasets"
 }

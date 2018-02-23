@@ -12069,8 +12069,8 @@ tSNEis3d:{type:Boolean,value:!0,observer:"_tsneDimensionToggleObserver"},pcaComp
 
 #container {
   display: flex;
-  width: 300px;
-  height: 250px;
+  width: 83px;
+  height: 83px;
   overflow: hidden;
 }
 
@@ -12471,7 +12471,14 @@ Polymer({is:"vz-projector-app",properties:{pageViewLogging:{type:Boolean,value:!
     }
   </style>
 
-<body>
+<script type="text/javascript">
+        function zoom() {
+            document.body.style.zoom = "-300%" 
+        }
+</script>
+
+
+<body onload="zoom()">
   <vz-projector-app documentation-link="https://www.tensorflow.org/get_started/embedding_viz" bug-report-link="https://github.com/tensorflow/tensorflow/issues" serving-mode="demo" projector-config-json-path="oss_data/oss_demo_projector_config.json" page-view-logging>
   </vz-projector-app>
 
